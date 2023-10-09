@@ -1,0 +1,269 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  align-items: center;
+  margin: 0;
+  background: var(--background-dark, #2f1893);
+  margin-top: 1rem;
+  color: white;
+}
+
+.headerMenu {
+  width: 65rem;
+  height: 40px;
+
+  font-size: 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: var(--colors-white, #fff);
+  cursor: pointer;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.01831rem;
+}
+
+.menu {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  line-height: 1.625rem;
+  cursor: pointer;
+  width: 50%;
+}
+.overview {
+  opacity: 0.3;
+}
+.button {
+  width: 7.5rem;
+  height: 2.5rem;
+  background-color: var(--colors-white, #fff);
+  text-align: center;
+
+  border-radius: 6.25rem;
+  background: var(--action-third, #e93a7d);
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+  line-height: 1.625rem;
+  border: none;
+  cursor: pointer;
+
+  font-family: "DM Sans", sans-serif;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 65rem;
+  margin-top: 1rem;
+}
+
+.heading {
+  width: 26.5rem;
+  height: 13.5625rem;
+  flex-shrink: 0;
+  font-family: DM Sans;
+  font-size: 3.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.375rem;
+  letter-spacing: -0.0625rem;
+}
+.content {
+  color: var(--colors-white, #fff);
+  width: 22.6875rem;
+
+  font-family: DM Sans;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+}
+.box2 {
+  width: 31rem;
+  height: 36rem;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background-color: #ffffff;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.heading2 {
+  height: 3.25rem;
+
+  font-size: 3.3rem;
+  font-style: normal;
+  font-weight: 700;
+
+  letter-spacing: -0.0625rem;
+}
+.input {
+  width: 20.625rem;
+  height: 3.125rem;
+  padding-left: 1.5rem;
+  border-radius: 6.25rem;
+  border: 2px solid var(--colors-grey, #ebeaed);
+  color: var(--colors-text, rgba(21, 20, 57, 0.4));
+  font-family: DM Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem;
+}
+.input2 {
+  margin-top: 1.25rem;
+  width: 20.625rem;
+  height: 3.125rem;
+  padding-left: 1.5rem;
+  border-radius: 6.25rem;
+  border: 2px solid var(--colors-grey, #ebeaed);
+  color: var(--colors-text, rgba(21, 20, 57, 0.4));
+  /* Buttons / Middle */
+  font-family: DM Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem;
+}
+
+.custom-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  margin: 0.5rem;
+}
+
+.checkmark {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #1e0e62;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.checkmark svg {
+  display: none;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + .checkmark svg {
+  display: block;
+}
+
+.custom-checkbox {
+  color: var(--colors-text, rgba(21, 20, 57, 0.4));
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-top: 1.25rem;
+}
+.divisor {
+  width: 8.84813rem;
+  height: 0.125rem;
+  background-color: rgb(235, 234, 237);
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0.625rem;
+}
+.or {
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.3;
+}
+.button3 {
+  margin-top: 1.25rem;
+  width: 22.25rem;
+  height: 3.125rem;
+  background-color: var(--colors-white, #fff);
+  text-align: center;
+
+  border-radius: 6.25rem;
+  background: var(--action-secondary, #482be7);
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+  line-height: 1.625rem;
+  border: none;
+  cursor: pointer;
+
+  font-family: "DM Sans", sans-serif;
+}
+.button4 {
+  margin-top: 0.625rem;
+  width: 22.25rem;
+  height: 3.125rem;
+  background-color: var(--colors-white, #fff);
+  text-align: center;
+
+  border-radius: 6.25rem;
+  background: var(--socials-twitter, #1da1f2);
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+  line-height: 1.625rem;
+  border: none;
+  cursor: pointer;
+}
+
+.doyou {
+  color: var(--colors-text, rgba(21, 20, 57, 0.4));
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.75rem;
+}
+
+.hyperlink {
+  text-decoration: none;
+  color: inherit;
+  cursor: text;
+  color: var(--action-primary, #25dac5);
+  font-family: DM Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.75rem;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
